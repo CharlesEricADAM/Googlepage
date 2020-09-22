@@ -1,0 +1,222 @@
+.topnav
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Gmail, .Images, .mozaic, .Connexion
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 5px;
+}
+
+.Gmail
+{
+  font-size: 13px;
+  color: #000000DE;
+  font-family: arial, sans-serif;
+}
+
+.Images
+{
+  font-size: 13px;
+  color: #000000DE;
+  font-family: arial, sans-serif;
+}
+
+.mozaic img
+{
+  height: 2em;
+  opacity: 0.5;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mozaic img:hover
+{
+  opacity: 1;
+}
+
+.Connexion button
+{
+  background-color:#4285f4;
+  color: white;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  font-family: arial, sans-serif;
+  padding: 3px 3px 3px 3px;
+}
+
+.centralpark
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.centralimage
+{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.shareimage
+{
+  display: flex;
+  align-items: flex-end;
+}
+
+.searchbar
+{
+  /* background-color: teal; */
+  display: flex;
+  justify-content: center;
+  width: 800px; 
+}
+
+.inputbar
+{
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  width: 600px;
+  height: 45px;
+}
+
+.inputbar:hover
+{
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.inputbar input
+{
+  width: 450px;
+  height: 90%;
+  border: none;
+  outline: none;
+}
+
+.mglass
+{
+  /* background-color: turquoise; */
+  display: flex;
+  height: 25px;
+  width: 25px;
+}
+
+.mic
+{
+  /* background-color: wheat; */
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.searchbuttons
+{
+  /* background-color: turquoise; */
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 400px;
+  margin-top: 30px;
+}
+
+.buttons
+{
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+}
+
+.buttons:hover
+{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+footer
+{
+  /* background-color: #5f6368; */
+  background: #f2f2f2;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  left: 0%;
+  right: 0%;
+}
+
+.France
+{
+  color: grey;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px 0px 0px 30px;
+  padding: 0px 0px 0px 27px;
+  background: #f2f2f2;
+  line-height: 40px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.bottomgreyband
+{
+  color: #5f6368;
+  margin: 10px 10px 10px 10px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.secondgreyband
+{
+  color: grey;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 0px 0px 27px;
+  background: #f2f2f2;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+#footerbottom
+{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e4e4e4;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
